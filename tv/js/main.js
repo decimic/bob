@@ -15,7 +15,7 @@ function switchStream(streamId){
   $("#youtubeFrame").attr('src', "https://www.youtube.com/embed/" + streamId + "?autoplay=1");
 }
 function switchChat(channel){
-  $("#twitchFrame").attr('src', "http://www.twitch.tv/embed/" + channel + "/chat");
+  $("#twitchFrame").attr('src', "https://www.twitch.tv/embed/" + channel + "/chat");
 }
 
 $(function(){
